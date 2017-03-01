@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181507BC1E072A6C003A27BD /* STHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 181507BB1E072A6C003A27BD /* STHTTPRequest.m */; };
+		181507BF1E072A7E003A27BD /* APIRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 181507BE1E072A7E003A27BD /* APIRequestManager.m */; };
+		1833DD051E06757500FA4C74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DD041E06757500FA4C74 /* main.m */; };
+		1833DD0E1E06757500FA4C74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1833DD0C1E06757500FA4C74 /* Main.storyboard */; };
+		1833DD111E06757500FA4C74 /* WIPMusic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1833DD0F1E06757500FA4C74 /* WIPMusic.xcdatamodeld */; };
+		1833DD131E06757500FA4C74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1833DD121E06757500FA4C74 /* Assets.xcassets */; };
+		1833DD161E06757500FA4C74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1833DD141E06757500FA4C74 /* LaunchScreen.storyboard */; };
+		1833DD211E06757500FA4C74 /* WIPMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DD201E06757500FA4C74 /* WIPMusicTests.m */; };
+		1833DD2C1E06757500FA4C74 /* WIPMusicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DD2B1E06757500FA4C74 /* WIPMusicUITests.m */; };
+		1833DD421E06771C00FA4C74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DD411E06771C00FA4C74 /* AppDelegate.m */; };
+		1833DD481E06784E00FA4C74 /* LandingPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DD471E06784E00FA4C74 /* LandingPageViewController.m */; };
+		1833DD4B1E067E1800FA4C74 /* UserDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DD4A1E067E1800FA4C74 /* UserDetailsViewController.m */; };
+		1833DD4D1E06828A00FA4C74 /* Siva.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1833DD4C1E06828A00FA4C74 /* Siva.jpg */; };
+		1833DD501E0686B100FA4C74 /* UISegmentedControl+Multiline.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DD4F1E0686B100FA4C74 /* UISegmentedControl+Multiline.m */; };
+		1833DD571E068AE100FA4C74 /* BRContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DD521E068AE100FA4C74 /* BRContact.m */; };
+		1833DD581E068AE100FA4C74 /* BRLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DD541E068AE100FA4C74 /* BRLocation.m */; };
+		1833DD591E068AE100FA4C74 /* BRRestaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DD561E068AE100FA4C74 /* BRRestaurant.m */; };
+		1833DD5C1E068B0B00FA4C74 /* BRUtilityClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DD5B1E068B0B00FA4C74 /* BRUtilityClass.m */; };
+		1833DD601E068CDB00FA4C74 /* EventsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DD5E1E068CDB00FA4C74 /* EventsTableViewCell.m */; };
+		1833DD611E068CDB00FA4C74 /* EventsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1833DD5F1E068CDB00FA4C74 /* EventsTableViewCell.xib */; };
+		1833DD651E068EEA00FA4C74 /* Cherukuri.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1833DD641E068EEA00FA4C74 /* Cherukuri.jpg */; };
+		1833DD6B1E0720E000FA4C74 /* RecipeCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1833DD6A1E0720E000FA4C74 /* RecipeCollectionHeaderView.m */; };
+		18A603B11E07B7F2008ED42A /* UserEventsData.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A603B01E07B7F2008ED42A /* UserEventsData.m */; };
+		18A603B71E07B822008ED42A /* UserProfileData.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A603B61E07B822008ED42A /* UserProfileData.m */; };
+		18A603BA1E07B838008ED42A /* UserMediaData.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A603B91E07B838008ED42A /* UserMediaData.m */; };
+		740ECB4A00B8A0DA65C4BD56 /* libPods-WIPMusic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 597F189F8FF10D1F79BDA14E /* libPods-WIPMusic.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1833DD1D1E06757500FA4C74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1833DCF81E06757400FA4C74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1833DCFF1E06757400FA4C74;
+			remoteInfo = WIPMusic;
+		};
+		1833DD281E06757500FA4C74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1833DCF81E06757400FA4C74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1833DCFF1E06757400FA4C74;
+			remoteInfo = WIPMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		181507BA1E072A6C003A27BD /* STHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STHTTPRequest.h; sourceTree = "<group>"; };
+		181507BB1E072A6C003A27BD /* STHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STHTTPRequest.m; sourceTree = "<group>"; };
+		181507BD1E072A7E003A27BD /* APIRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIRequestManager.h; sourceTree = "<group>"; };
+		181507BE1E072A7E003A27BD /* APIRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIRequestManager.m; sourceTree = "<group>"; };
+		181507C01E072B19003A27BD /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		1833DD001E06757500FA4C74 /* WIPMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WIPMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1833DD041E06757500FA4C74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1833DD0D1E06757500FA4C74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1833DD101E06757500FA4C74 /* WIPMusic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WIPMusic.xcdatamodel; sourceTree = "<group>"; };
+		1833DD121E06757500FA4C74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1833DD151E06757500FA4C74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1833DD171E06757500FA4C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1833DD1C1E06757500FA4C74 /* WIPMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WIPMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1833DD201E06757500FA4C74 /* WIPMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WIPMusicTests.m; sourceTree = "<group>"; };
+		1833DD221E06757500FA4C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1833DD271E06757500FA4C74 /* WIPMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WIPMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1833DD2B1E06757500FA4C74 /* WIPMusicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WIPMusicUITests.m; sourceTree = "<group>"; };
+		1833DD2D1E06757500FA4C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1833DD401E06771C00FA4C74 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Singletons/AppDelegate.h; sourceTree = "<group>"; };
+		1833DD411E06771C00FA4C74 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Singletons/AppDelegate.m; sourceTree = "<group>"; };
+		1833DD461E06784E00FA4C74 /* LandingPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LandingPageViewController.h; path = View/LandingPageViewController.h; sourceTree = "<group>"; };
+		1833DD471E06784E00FA4C74 /* LandingPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LandingPageViewController.m; path = View/LandingPageViewController.m; sourceTree = "<group>"; };
+		1833DD491E067E1800FA4C74 /* UserDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDetailsViewController.h; sourceTree = "<group>"; };
+		1833DD4A1E067E1800FA4C74 /* UserDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDetailsViewController.m; sourceTree = "<group>"; };
+		1833DD4C1E06828A00FA4C74 /* Siva.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Siva.jpg; sourceTree = "<group>"; };
+		1833DD4E1E0686B100FA4C74 /* UISegmentedControl+Multiline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISegmentedControl+Multiline.h"; sourceTree = "<group>"; };
+		1833DD4F1E0686B100FA4C74 /* UISegmentedControl+Multiline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISegmentedControl+Multiline.m"; sourceTree = "<group>"; };
+		1833DD511E068AE100FA4C74 /* BRContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRContact.h; sourceTree = "<group>"; };
+		1833DD521E068AE100FA4C74 /* BRContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRContact.m; sourceTree = "<group>"; };
+		1833DD531E068AE100FA4C74 /* BRLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRLocation.h; sourceTree = "<group>"; };
+		1833DD541E068AE100FA4C74 /* BRLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRLocation.m; sourceTree = "<group>"; };
+		1833DD551E068AE100FA4C74 /* BRRestaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRRestaurant.h; sourceTree = "<group>"; };
+		1833DD561E068AE100FA4C74 /* BRRestaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRRestaurant.m; sourceTree = "<group>"; };
+		1833DD5A1E068B0B00FA4C74 /* BRUtilityClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRUtilityClass.h; sourceTree = "<group>"; };
+		1833DD5B1E068B0B00FA4C74 /* BRUtilityClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRUtilityClass.m; sourceTree = "<group>"; };
+		1833DD5D1E068CDB00FA4C74 /* EventsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsTableViewCell.h; sourceTree = "<group>"; };
+		1833DD5E1E068CDB00FA4C74 /* EventsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsTableViewCell.m; sourceTree = "<group>"; };
+		1833DD5F1E068CDB00FA4C74 /* EventsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventsTableViewCell.xib; sourceTree = "<group>"; };
+		1833DD641E068EEA00FA4C74 /* Cherukuri.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cherukuri.jpg; sourceTree = "<group>"; };
+		1833DD691E0720E000FA4C74 /* RecipeCollectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipeCollectionHeaderView.h; path = View/RecipeCollectionHeaderView.h; sourceTree = "<group>"; };
+		1833DD6A1E0720E000FA4C74 /* RecipeCollectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipeCollectionHeaderView.m; path = View/RecipeCollectionHeaderView.m; sourceTree = "<group>"; };
+		18A603AF1E07B7F2008ED42A /* UserEventsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserEventsData.h; path = "View Model/UserEventsData.h"; sourceTree = "<group>"; };
+		18A603B01E07B7F2008ED42A /* UserEventsData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserEventsData.m; path = "View Model/UserEventsData.m"; sourceTree = "<group>"; };
+		18A603B51E07B822008ED42A /* UserProfileData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserProfileData.h; path = "View Model/UserProfileData.h"; sourceTree = "<group>"; };
+		18A603B61E07B822008ED42A /* UserProfileData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserProfileData.m; path = "View Model/UserProfileData.m"; sourceTree = "<group>"; };
+		18A603B81E07B838008ED42A /* UserMediaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserMediaData.h; path = "View Model/UserMediaData.h"; sourceTree = "<group>"; };
+		18A603B91E07B838008ED42A /* UserMediaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserMediaData.m; path = "View Model/UserMediaData.m"; sourceTree = "<group>"; };
+		597F189F8FF10D1F79BDA14E /* libPods-WIPMusic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WIPMusic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D82EE43D1FCA0494FB92B3F /* Pods-WIPMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WIPMusic.release.xcconfig"; path = "Pods/Target Support Files/Pods-WIPMusic/Pods-WIPMusic.release.xcconfig"; sourceTree = "<group>"; };
+		7E0B30639B7895295E6478CB /* Pods-WIPMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WIPMusic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WIPMusic/Pods-WIPMusic.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1833DCFD1E06757400FA4C74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740ECB4A00B8A0DA65C4BD56 /* libPods-WIPMusic.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1833DD191E06757500FA4C74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1833DD241E06757500FA4C74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1833DCF71E06757400FA4C74 = {
+			isa = PBXGroup;
+			children = (
+				1833DD021E06757500FA4C74 /* WIPMusic */,
+				1833DD1F1E06757500FA4C74 /* WIPMusicTests */,
+				1833DD2A1E06757500FA4C74 /* WIPMusicUITests */,
+				1833DD011E06757500FA4C74 /* Products */,
+				91C126B46AB94D6767708949 /* Pods */,
+				878E3CCA9AB1BAE8AABCBD7F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1833DD011E06757500FA4C74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1833DD001E06757500FA4C74 /* WIPMusic.app */,
+				1833DD1C1E06757500FA4C74 /* WIPMusicTests.xctest */,
+				1833DD271E06757500FA4C74 /* WIPMusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1833DD021E06757500FA4C74 /* WIPMusic */ = {
+			isa = PBXGroup;
+			children = (
+				1833DD391E0675AB00FA4C74 /* Model */,
+				1833DD3B1E0675C900FA4C74 /* View */,
+				1833DD3A1E0675BC00FA4C74 /* View Model */,
+				1833DD3C1E0675D900FA4C74 /* Helpers */,
+				1833DD3F1E06767400FA4C74 /* Singletons */,
+				1833DD0C1E06757500FA4C74 /* Main.storyboard */,
+				1833DD121E06757500FA4C74 /* Assets.xcassets */,
+				1833DD641E068EEA00FA4C74 /* Cherukuri.jpg */,
+				1833DD4C1E06828A00FA4C74 /* Siva.jpg */,
+				1833DD141E06757500FA4C74 /* LaunchScreen.storyboard */,
+				1833DD171E06757500FA4C74 /* Info.plist */,
+				1833DD0F1E06757500FA4C74 /* WIPMusic.xcdatamodeld */,
+				1833DD031E06757500FA4C74 /* Supporting Files */,
+			);
+			path = WIPMusic;
+			sourceTree = "<group>";
+		};
+		1833DD031E06757500FA4C74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1833DD041E06757500FA4C74 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1833DD1F1E06757500FA4C74 /* WIPMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				1833DD201E06757500FA4C74 /* WIPMusicTests.m */,
+				1833DD221E06757500FA4C74 /* Info.plist */,
+			);
+			path = WIPMusicTests;
+			sourceTree = "<group>";
+		};
+		1833DD2A1E06757500FA4C74 /* WIPMusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1833DD2B1E06757500FA4C74 /* WIPMusicUITests.m */,
+				1833DD2D1E06757500FA4C74 /* Info.plist */,
+			);
+			path = WIPMusicUITests;
+			sourceTree = "<group>";
+		};
+		1833DD391E0675AB00FA4C74 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1833DD511E068AE100FA4C74 /* BRContact.h */,
+				1833DD521E068AE100FA4C74 /* BRContact.m */,
+				1833DD531E068AE100FA4C74 /* BRLocation.h */,
+				1833DD541E068AE100FA4C74 /* BRLocation.m */,
+				1833DD551E068AE100FA4C74 /* BRRestaurant.h */,
+				1833DD561E068AE100FA4C74 /* BRRestaurant.m */,
+				1833DD3E1E06763500FA4C74 /* Model Classes */,
+				1833DD3D1E06762900FA4C74 /* Core Data */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1833DD3A1E0675BC00FA4C74 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				18A603AF1E07B7F2008ED42A /* UserEventsData.h */,
+				18A603B01E07B7F2008ED42A /* UserEventsData.m */,
+				18A603B51E07B822008ED42A /* UserProfileData.h */,
+				18A603B61E07B822008ED42A /* UserProfileData.m */,
+				18A603B81E07B838008ED42A /* UserMediaData.h */,
+				18A603B91E07B838008ED42A /* UserMediaData.m */,
+			);
+			name = "View Model";
+			sourceTree = "<group>";
+		};
+		1833DD3B1E0675C900FA4C74 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1833DD461E06784E00FA4C74 /* LandingPageViewController.h */,
+				1833DD471E06784E00FA4C74 /* LandingPageViewController.m */,
+				1833DD491E067E1800FA4C74 /* UserDetailsViewController.h */,
+				1833DD4A1E067E1800FA4C74 /* UserDetailsViewController.m */,
+				1833DD5D1E068CDB00FA4C74 /* EventsTableViewCell.h */,
+				1833DD5E1E068CDB00FA4C74 /* EventsTableViewCell.m */,
+				1833DD5F1E068CDB00FA4C74 /* EventsTableViewCell.xib */,
+				1833DD691E0720E000FA4C74 /* RecipeCollectionHeaderView.h */,
+				1833DD6A1E0720E000FA4C74 /* RecipeCollectionHeaderView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1833DD3C1E0675D900FA4C74 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				181507C01E072B19003A27BD /* Constants.h */,
+				181507BD1E072A7E003A27BD /* APIRequestManager.h */,
+				181507BE1E072A7E003A27BD /* APIRequestManager.m */,
+				181507BA1E072A6C003A27BD /* STHTTPRequest.h */,
+				181507BB1E072A6C003A27BD /* STHTTPRequest.m */,
+				1833DD5A1E068B0B00FA4C74 /* BRUtilityClass.h */,
+				1833DD5B1E068B0B00FA4C74 /* BRUtilityClass.m */,
+				1833DD4E1E0686B100FA4C74 /* UISegmentedControl+Multiline.h */,
+				1833DD4F1E0686B100FA4C74 /* UISegmentedControl+Multiline.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		1833DD3D1E06762900FA4C74 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		1833DD3E1E06763500FA4C74 /* Model Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Model Classes";
+			sourceTree = "<group>";
+		};
+		1833DD3F1E06767400FA4C74 /* Singletons */ = {
+			isa = PBXGroup;
+			children = (
+				1833DD401E06771C00FA4C74 /* AppDelegate.h */,
+				1833DD411E06771C00FA4C74 /* AppDelegate.m */,
+			);
+			name = Singletons;
+			sourceTree = "<group>";
+		};
+		878E3CCA9AB1BAE8AABCBD7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				597F189F8FF10D1F79BDA14E /* libPods-WIPMusic.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91C126B46AB94D6767708949 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E0B30639B7895295E6478CB /* Pods-WIPMusic.debug.xcconfig */,
+				7D82EE43D1FCA0494FB92B3F /* Pods-WIPMusic.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1833DCFF1E06757400FA4C74 /* WIPMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1833DD301E06757500FA4C74 /* Build configuration list for PBXNativeTarget "WIPMusic" */;
+			buildPhases = (
+				EBDADDCE37F4645463B334EF /* 📦 Check Pods Manifest.lock */,
+				1833DCFC1E06757400FA4C74 /* Sources */,
+				1833DCFD1E06757400FA4C74 /* Frameworks */,
+				1833DCFE1E06757400FA4C74 /* Resources */,
+				CE4562112B596CB91E9720B3 /* 📦 Embed Pods Frameworks */,
+				E9FFCC061042C7A39809F847 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WIPMusic;
+			productName = WIPMusic;
+			productReference = 1833DD001E06757500FA4C74 /* WIPMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1833DD1B1E06757500FA4C74 /* WIPMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1833DD331E06757500FA4C74 /* Build configuration list for PBXNativeTarget "WIPMusicTests" */;
+			buildPhases = (
+				1833DD181E06757500FA4C74 /* Sources */,
+				1833DD191E06757500FA4C74 /* Frameworks */,
+				1833DD1A1E06757500FA4C74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1833DD1E1E06757500FA4C74 /* PBXTargetDependency */,
+			);
+			name = WIPMusicTests;
+			productName = WIPMusicTests;
+			productReference = 1833DD1C1E06757500FA4C74 /* WIPMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1833DD261E06757500FA4C74 /* WIPMusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1833DD361E06757500FA4C74 /* Build configuration list for PBXNativeTarget "WIPMusicUITests" */;
+			buildPhases = (
+				1833DD231E06757500FA4C74 /* Sources */,
+				1833DD241E06757500FA4C74 /* Frameworks */,
+				1833DD251E06757500FA4C74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1833DD291E06757500FA4C74 /* PBXTargetDependency */,
+			);
+			name = WIPMusicUITests;
+			productName = WIPMusicUITests;
+			productReference = 1833DD271E06757500FA4C74 /* WIPMusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1833DCF81E06757400FA4C74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = WIPMusic;
+				TargetAttributes = {
+					1833DCFF1E06757400FA4C74 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					1833DD1B1E06757500FA4C74 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1833DCFF1E06757400FA4C74;
+					};
+					1833DD261E06757500FA4C74 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1833DCFF1E06757400FA4C74;
+					};
+				};
+			};
+			buildConfigurationList = 1833DCFB1E06757400FA4C74 /* Build configuration list for PBXProject "WIPMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1833DCF71E06757400FA4C74;
+			productRefGroup = 1833DD011E06757500FA4C74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1833DCFF1E06757400FA4C74 /* WIPMusic */,
+				1833DD1B1E06757500FA4C74 /* WIPMusicTests */,
+				1833DD261E06757500FA4C74 /* WIPMusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1833DCFE1E06757400FA4C74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1833DD611E068CDB00FA4C74 /* EventsTableViewCell.xib in Resources */,
+				1833DD161E06757500FA4C74 /* LaunchScreen.storyboard in Resources */,
+				1833DD131E06757500FA4C74 /* Assets.xcassets in Resources */,
+				1833DD4D1E06828A00FA4C74 /* Siva.jpg in Resources */,
+				1833DD651E068EEA00FA4C74 /* Cherukuri.jpg in Resources */,
+				1833DD0E1E06757500FA4C74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1833DD1A1E06757500FA4C74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1833DD251E06757500FA4C74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CE4562112B596CB91E9720B3 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WIPMusic/Pods-WIPMusic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9FFCC061042C7A39809F847 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WIPMusic/Pods-WIPMusic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBDADDCE37F4645463B334EF /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1833DCFC1E06757400FA4C74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1833DD421E06771C00FA4C74 /* AppDelegate.m in Sources */,
+				1833DD571E068AE100FA4C74 /* BRContact.m in Sources */,
+				1833DD481E06784E00FA4C74 /* LandingPageViewController.m in Sources */,
+				181507BC1E072A6C003A27BD /* STHTTPRequest.m in Sources */,
+				1833DD6B1E0720E000FA4C74 /* RecipeCollectionHeaderView.m in Sources */,
+				1833DD111E06757500FA4C74 /* WIPMusic.xcdatamodeld in Sources */,
+				18A603BA1E07B838008ED42A /* UserMediaData.m in Sources */,
+				1833DD581E068AE100FA4C74 /* BRLocation.m in Sources */,
+				1833DD4B1E067E1800FA4C74 /* UserDetailsViewController.m in Sources */,
+				18A603B11E07B7F2008ED42A /* UserEventsData.m in Sources */,
+				181507BF1E072A7E003A27BD /* APIRequestManager.m in Sources */,
+				1833DD501E0686B100FA4C74 /* UISegmentedControl+Multiline.m in Sources */,
+				18A603B71E07B822008ED42A /* UserProfileData.m in Sources */,
+				1833DD051E06757500FA4C74 /* main.m in Sources */,
+				1833DD601E068CDB00FA4C74 /* EventsTableViewCell.m in Sources */,
+				1833DD591E068AE100FA4C74 /* BRRestaurant.m in Sources */,
+				1833DD5C1E068B0B00FA4C74 /* BRUtilityClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1833DD181E06757500FA4C74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1833DD211E06757500FA4C74 /* WIPMusicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1833DD231E06757500FA4C74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1833DD2C1E06757500FA4C74 /* WIPMusicUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1833DD1E1E06757500FA4C74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1833DCFF1E06757400FA4C74 /* WIPMusic */;
+			targetProxy = 1833DD1D1E06757500FA4C74 /* PBXContainerItemProxy */;
+		};
+		1833DD291E06757500FA4C74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1833DCFF1E06757400FA4C74 /* WIPMusic */;
+			targetProxy = 1833DD281E06757500FA4C74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1833DD0C1E06757500FA4C74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1833DD0D1E06757500FA4C74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1833DD141E06757500FA4C74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1833DD151E06757500FA4C74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1833DD2E1E06757500FA4C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1833DD2F1E06757500FA4C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1833DD311E06757500FA4C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E0B30639B7895295E6478CB /* Pods-WIPMusic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WIPMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wip.WIPMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1833DD321E06757500FA4C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D82EE43D1FCA0494FB92B3F /* Pods-WIPMusic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WIPMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wip.WIPMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1833DD341E06757500FA4C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WIPMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wip.WIPMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WIPMusic.app/WIPMusic";
+			};
+			name = Debug;
+		};
+		1833DD351E06757500FA4C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WIPMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wip.WIPMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WIPMusic.app/WIPMusic";
+			};
+			name = Release;
+		};
+		1833DD371E06757500FA4C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WIPMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wip.WIPMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WIPMusic;
+			};
+			name = Debug;
+		};
+		1833DD381E06757500FA4C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WIPMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wip.WIPMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WIPMusic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1833DCFB1E06757400FA4C74 /* Build configuration list for PBXProject "WIPMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1833DD2E1E06757500FA4C74 /* Debug */,
+				1833DD2F1E06757500FA4C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1833DD301E06757500FA4C74 /* Build configuration list for PBXNativeTarget "WIPMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1833DD311E06757500FA4C74 /* Debug */,
+				1833DD321E06757500FA4C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1833DD331E06757500FA4C74 /* Build configuration list for PBXNativeTarget "WIPMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1833DD341E06757500FA4C74 /* Debug */,
+				1833DD351E06757500FA4C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1833DD361E06757500FA4C74 /* Build configuration list for PBXNativeTarget "WIPMusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1833DD371E06757500FA4C74 /* Debug */,
+				1833DD381E06757500FA4C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1833DD0F1E06757500FA4C74 /* WIPMusic.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1833DD101E06757500FA4C74 /* WIPMusic.xcdatamodel */,
+			);
+			currentVersion = 1833DD101E06757500FA4C74 /* WIPMusic.xcdatamodel */;
+			path = WIPMusic.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1833DCF81E06757400FA4C74 /* Project object */;
+}
